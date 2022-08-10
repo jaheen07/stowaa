@@ -344,7 +344,7 @@
 
                                 <div class="card" style="height:21rem">
 <<<<<<< HEAD
-                                    <img src="{{asset('uploads/banner')}}/{{App\models\banner::where('banner_number',2)->first()->get()->banner_image}}" width="100%" height="100%">
+                                    <img src="{{asset('uploads/banner')}}/{{App\models\banner::where('banner_number',2)->first('banner_image')}}" width="100%" height="100%">
 =======
                                     <img src="{{asset('uploads/banner')}}/{{App\models\banner::where('banner_number',2)->get()->banner_image}}" width="100%" height="100%">
 >>>>>>> cb968042a067633799f35d1443bd111fb7debfff
