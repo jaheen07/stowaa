@@ -309,4 +309,11 @@ class frontendController extends Controller
             ]); 
         return back();
     }
+
+    function records(){
+       $records = records::all();
+       return view('admin_side.records.records',[
+        'records' => $records,
+       ]);
+    }
 }

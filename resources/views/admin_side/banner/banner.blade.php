@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<title>Banner</title>
 @section('content')
 
 <div class="container">

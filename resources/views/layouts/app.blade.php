@@ -24,15 +24,16 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <h3>Dashboard</h3>
+                <a href="{{url('/dashboard')}}"><img src="{{asset('frontend_assets\images\logo\logo.png')}}" alt=""></a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
-
+                    <ul class="navbar-nav mx-auto">
+                    <h3 class="mt-3">DASHBOARD</h3>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -66,6 +67,7 @@
                                         <a href="{{url('/coupons')}}" class="dropdown-item">coupons</a>
                                         <a href="{{url('/orders')}}" class="dropdown-item">Orders</a>
                                         <a href="{{ url('/banner') }}" class="dropdown-item" >banner</a>
+                                        <a href="{{ url('/records') }}" class="dropdown-item" >records</a>
                                         
                                     </div>
                                 </li>

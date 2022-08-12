@@ -83,6 +83,9 @@ Route::get('/orders/packaging/{package_id}',[orderController::class,'package']);
 Route::get('/orders/shipping/{shipping_id}',[orderController::class,'shipping']);
 Route::get('/orders/delivery_complete/{delivery_id}',[orderController::class,'delivery']);
 
+//records
+Route::get('/records',[frontendcontroller::class,'records']);
+
 //tracking-order
 Route::get('/track-order',[frontendcontroller::class,'track_order_index']);
 Route::get('/tracking/{order_id}',[frontendcontroller::class,'tracking_index']);

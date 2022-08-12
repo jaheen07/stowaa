@@ -50,7 +50,7 @@ class orderController extends Controller
              'country' => $orders->country,
              'city' => $orders->city,
              'address' => $orders->address,
-             'notes' => $orders->comment,  
+             'notes' => $orders->notes,  
              'payment_method' => $orders->payment_method,
              'order_number' => $orders->order_number,
              'grand_total' => $orders->grand_total,
