@@ -1,7 +1,8 @@
 @extends('layouts.app')
+
 <title>Products</title>
 @section('content')
-<div class="container">
+<div class="jk mx-3">
     <div class="row">
         <div class="col-lg-9">
             <div class="card">

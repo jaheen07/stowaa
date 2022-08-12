@@ -3,13 +3,14 @@
 <title>Records</title>
 
 @section('content')
-<div class="jk">
+<div class="jk mx-3">
     <div class="row">
         <div class="col-lg-20">
-            <div class="card" style="width:100%">
+            <div class="card">
                 <div class="card-header"><h3>Records</h3></div>
-            </div>
-            <table class="mx-3 table table-striped">
+
+                <div class="card-body">
+                    <table class=" table table-striped"style="font-size:0.8rem;">
                 <tr class="text-center">
                     <th>Sl No.</th>
                     <th>order_number</th>
@@ -59,7 +60,10 @@
                     <td>{{$rd->created_at}}</td>
                 </tr>
                 @endforeach
-            </table>
+            </table> 
+                </div>
+            </div>
+           
         </div>
     </div>
 </div>

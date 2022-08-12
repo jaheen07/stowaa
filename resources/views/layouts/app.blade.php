@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{asset('frontend_assets/images/logo/download.png')}}">
 </head>
 <body>
     <div id="app">
