@@ -356,7 +356,7 @@
                                 <div class="card my-5" style="height:21rem">
                                     <img src="{{asset('uploads/banner')}}/{{App\models\banner::where('banner_number',2)->get()->first()->banner_image}}" width="100%" height="100%">
                                     <div class="card-img-overlay">
-                                        <a class="btn btn-danger mx-3 mb-3" href="{{url('/product_details')}}/{{App\models\banner::where('banner_number',3)->get()->first()->product_id}}" style="position:relative;top:80%">Start Buying</a>
+                                        <a class="btn btn-danger mx-3 mb-3" href="{{url('/product_details')}}/{{App\models\banner::where('banner_number',4)->get()->first()->product_id}}" style="position:relative;top:80%">Start Buying</a>
                                     </div>
                                 </div>
                                 <!-- <div class="widget product-add p-0">

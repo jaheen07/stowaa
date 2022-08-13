@@ -39,7 +39,7 @@
                                 <td>{{$od->user_name}}</td>
                                 <td>{{$od->phone}}</td>
                                 <td>{{$od->address}}</td>
-                                <td><a class="btn btn-secondary" href="{{url('/orders/details')}}/{{$od->id}}">see details</a></td>
+                                <td><a class="btn btn-secondary" style="pointer-events: none;" href="{{url('/orders/details')}}/{{$od->id}}">see details(currently disabled)</a></td>
                                 @if($od->packaging_status == 0 )
                                 <td><a class="btn btn-secondary" href="{{url('/orders/packaging')}}/{{$od->id}}">click to set ok</a></td>
                                 @else

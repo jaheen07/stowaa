@@ -7,7 +7,7 @@
 		<div class="breadcrumb_section">
 			<div class="container">
 				<ul class="breadcrumb_nav ul_li">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="{{url('/')}}">Home</a></li>
 					<li>About Us</li>
 				</ul>
 			</div>
